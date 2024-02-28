@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #f2fafb;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.login .box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 8px; 
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    text-wrap: wrap;
+
+}
+.box h1 {
+    text-align: center;
+    padding-bottom: 2vh;
+    border-bottom: #f2fafb solid;
+    color: purple;
+}
+.box form input {
+    display:flex;
+    width: 40vh;
+    height: 40px;
+    margin: 15px;
+}

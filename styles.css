@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppin", sans-serif;
+}
+
+body {
+    display: block;
+    background-color: #f2fafb;
+    margin: 0;
+
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 105px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: rgba(113, 99, 186, 255);
+    float: left;
+}
+.sidebar:hover {
+    width: 240px;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 80px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.main li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    list-style: none;
+}
+
+.main li:hover, 
+.active {
+    background: #e0e0e058;
+}
+
+.main a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.main a span {
+overflow: hidden;
+}
+
+.main a i {
+    font-size: 1.2rem;
+}
+
+.slider-img {
+    padding-top: 4px;
+    transition: 1s;
+    border-radius: 50%; 
+}
+
+.slider-img:hover {
+    transform: scale(1.1);
+}
+
+.logout {
+    position: absolute;
+    margin-bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*  this is a header content of my page...   */
+
+.main--content {
+    position: flex;
+    background-color: #fff;
+    padding: 1rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+}
+
+.header--wrapper img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.header--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:10px 2rem;
+    margin-bottom:1rem;
+}
+
+.header--title {
+    color: rgba(113, 99, 186, 255)
+}
+
+.user--infor {
+    display: flex;
+    align-items: center;
+    gap: 1;
+}
+
+.search--box {
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    color: rgba(113, 99, 186, 255);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+.search--box input {
+    background: transparent;
+    padding: 10px;
+    max-width: 8rem;
+    min-width: 3rem;
+}
+
+.search--box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.search--box i:hover {
+    transform: scale(1.1);
+}
+
+/* ***card container...*/
+
+.card {
+    margin: 1rem 1rem 1rem 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000rem;
+    padding: 20px 10px;
+    background-color: #fff;
+    color: rgba(113, 99, 186, 255);
+    position: relative;
+    border-radius: 10px;
+}
+
+.image {
+   position: relative;
+    background-color: #fff;
+    display: block;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    color: rgba(113, 99, 186, 255);
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+/* login page... */
+
+.login {
+    margin: auto 16rem;
+    justify-content: center;
+    
+}
