@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>login page</title>
+   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="login">
-        <div class="box">
-            <div>
-                <h1>Login</h1>
-            </div>
-            <form action="">
-              <div>
-                   <label for="username"><span>Username:</span>
-                       <input type="text" placeholder="Enter username..." name="username" required>
-                   </label> <br>
-                   <label for="password"><span>Password:</span>
-                       <input type="password" placeholder="Enter password" name="password" required> 
-                   </label>
-              </div>
-              <div class="submit">
-                   <input type="submit" value="Submit" class="submit-btn">
-              </div>
-              <span>You don't have an account <a href="sign-up.html">Sign Up</a></span>
-            </form>
-        </div>
-    </div>
+   
+     <form action="" method="post">
+      <div class="login-title">
+            <h1>Login</h1>
+            <br>
+            <hr>
+      </div>
+
+      <div class="login-username">
+         <label for="username"><b>Username:</b></label><br>
+         <input type="text" name="username" id="username" placeholder="Enter username..." required>
+      </div>
+
+      <div class="login-password">
+         <label for="password"><b>Password:</b></label><br>
+         <input type="password" name="password" id="password" placeholder="Enter password..." required>
+      </div>
+
+      <div class="login-submit">
+         <input type="submit" value="Submit">
+      </div>
+
+      <div class="no-account">
+         <hr>
+         <br>
+         <h3>If you don't have an account: <a href="signin.html">Sign In</a></h3>
+      </div>
+     </form>
+   
 </body>
 </html>
