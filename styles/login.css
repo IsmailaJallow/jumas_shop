@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+body {
+    justify-content: center;
+    display: flex;
+    margin: 20% auto;
+    font-family: sans-serif;
+    text-decoration: rgba(113, 99, 186, 255);
+}
+
+form {
+    background-color: #f5faf9;
+    border-radius: 5px;
+    box-shadow: rgba(113, 99, 186, 255);
+}
+.login-title {
+    text-align: center;
+    color: rgba(113, 99, 186, 255);
+    padding: 10px;
+}
+.login-username {
+    padding: 10px;
+}
+.login-username label {
+    color: rgba(113, 99, 186, 255);
+    
+}
+.login-username input {
+    width: 21rem;
+    height: 3rem;
+    
+}
+.login-password {
+    padding: 10px;
+}
+.login-password label {
+    color: rgba(113, 99, 186, 255);
+}
+.login-password input {
+    width: 21rem;
+    height: 3rem
+}
+.login-submit{
+    padding: 10px;
+    
+}
+.login-submit input {
+    width: 21rem;
+    height: 3rem;
+    background-color: rgba(113, 99, 186, 255);
+    color: #fff;
+}
+.no-account {
+    padding: 10px;
+}
